@@ -6,7 +6,7 @@ contract wallet {
    struct Crypto {
        string coin;
        uint amount;
-       crypto[] user;
+    //    crypto[] user;
    }
 
    mapping(address => Crypto) public userCrypto;
